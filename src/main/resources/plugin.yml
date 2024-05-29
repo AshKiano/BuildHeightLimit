@@ -1,0 +1,10 @@
+name: BuildHeightLimit
+version: '${project.version}'
+main: com.ashkiano.buildheightlimit.BuildHeightLimit
+api-version: 1.16
+authors: [ AshKiano ]
+description: A plugin to set a configurable build height limit for players with specific permission.
+permissions:
+  buildheight.bypass:
+    description: Allows the player to bypass the build height limit.
+    default: op
